@@ -1,0 +1,42 @@
+﻿<Window
+
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+
+  Title="Microsoft 365 Management Tool | Main Menu"
+        SizeToContent="WidthAndHeight"
+        Background="Gray"
+        ResizeMode="CanMinimize"
+        Icon="https://adbwebdesigns.co.uk/static/microsoft-365-icon.ico"
+>
+    <Grid Margin="0">
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_File">
+                    <MenuItem x:Name="MenuBarSettingsButton" Header="_Settings"/>
+                    <MenuItem x:Name="MenuBarMainMenuButton" Header="_Main Menu"/>
+                    <MenuItem x:Name="MenuBarExitButton" Header="_Exit"/>
+                </MenuItem>
+                <MenuItem Header="_About">
+                    <MenuItem x:Name="MenuBarVersionButton" Header="_Version"/>
+                    <MenuItem x:Name="MenuBarChangeLogButton" Header="_Change Log"/>
+                    <MenuItem x:Name="MenuBarHelpButton" Header="_Help"/>
+                </MenuItem>
+            </Menu>
+            <StackPanel></StackPanel>
+        </DockPanel>
+        <Grid Margin="10" Height="450" Width="800">
+            <StackPanel HorizontalAlignment="Center" Orientation="Vertical" VerticalAlignment="Center">
+                <StackPanel.Resources>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Margin" Value="0,2.5,0,2.5"/>
+                    </Style>
+                </StackPanel.Resources>
+                <Button x:Name="LoginButton" Content="Login to Microsoft 365" Width="160" Height="25"/>
+                <Button x:Name="LogoutButton" Content="Logout of Microsoft 365" Width="160" Height="24"/>
+            </StackPanel>
+            <Button x:Name="ExitButton" Content="Exit" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="80" Height="25"/>
+        </Grid>
+    </Grid>
+</Window>
