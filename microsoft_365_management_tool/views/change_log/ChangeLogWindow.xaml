@@ -13,7 +13,7 @@
     <Grid Margin="0">
         <Grid Margin="10" Height="350" Width="500">
             <StackPanel HorizontalAlignment="Center" Orientation="Vertical" VerticalAlignment="Top">
-                <TextBox x:Name="ChangeLogTextBox" TextWrapping="Wrap" AcceptsReturn="True" HorizontalAlignment="Center" Text="" VerticalAlignment="Top" Width="500" Height="313"/>
+                <TextBox x:Name="ChangeLogTextBox" TextWrapping="Wrap" AcceptsReturn="True" HorizontalAlignment="Center" Text="" VerticalAlignment="Top" Width="500" Height="313" IsEnabled="False"/>
             </StackPanel>
             <Button x:Name="CloseButton" Content="Close" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="80" Height="25"/>
         </Grid>

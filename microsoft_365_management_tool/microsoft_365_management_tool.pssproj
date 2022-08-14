@@ -32,8 +32,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="globals\GlobalFunctions.ps1" />
+    <Compile Include="globals\GlobalVariables.ps1" />
     <Compile Include="loaders\WindowLoaders.ps1" />
     <Compile Include="microsoft_365_management_tool.ps1" />
+    <Compile Include="utils\New-MessageBox.ps1" />
     <Compile Include="views\change_log\ChangeLogWindow.xaml.ps1">
       <SubType>Code</SubType>
       <DependentUpon>views\change_log\ChangeLogWindow.xaml</DependentUpon>
