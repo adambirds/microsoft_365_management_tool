@@ -15,7 +15,6 @@
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="_File">
                     <MenuItem x:Name="MenuBarSettingsButton" Header="_Settings"/>
-                    <MenuItem x:Name="MenuBarMainMenuButton" Header="_Main Menu"/>
                     <MenuItem x:Name="MenuBarExitButton" Header="_Exit"/>
                 </MenuItem>
                 <MenuItem Header="_About">

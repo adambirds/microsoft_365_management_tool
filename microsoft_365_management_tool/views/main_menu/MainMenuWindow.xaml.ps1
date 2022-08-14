@@ -13,7 +13,6 @@ $MainMenuWindow = Import-Xaml
 $MainMenuObjects = [PSCustomObject]@{
 	MenuBarSettingsButton = $MainMenuWindow.FindName('MenuBarSettingsButton')
 	MenuBarExitButton = $MainMenuWindow.FindName('MenuBarExitButton')
-	MenuBarMainMenuButton = $MainMenuWindow.FindName('MenuBarMainMenuButton')
 	MenuBarVersionButton = $MainMenuWindow.FindName('MenuBarVersionButton')
 	MenuBarChangeLogButton = $MainMenuWindow.FindName('MenuBarChangeLogButton')
 	MenuBarHelpButton = $MainMenuWindow.FindName('MenuBarHelpButton')
